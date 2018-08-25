@@ -1,0 +1,56 @@
+@media screen and (max-width:770px) {
+  div.no-rocord-found {
+    display: none;
+  }
+  div.no-record-found-md{
+    display: block !important;
+  }
+  .welcome{
+    display: none;
+  }
+  .welcome-md {
+    display: block !important;
+  }
+}
+
+div.no-rocord-found {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  overflow: visible;
+}
+
+div.no-record-found-md{
+  display: none;
+}
+
+div.no-record-found-md img{
+  width: 40px;
+  float:left;
+}
+
+div.no-record-found-md h4{
+  position: relative;
+  top: 8px;
+}
+.welcome-md {
+  display: none;
+}
+
+.breadcrumb{
+  padding: 0 0 10px 0;
+}
+.icon-color{
+  color: #4d636f;
+}
+
+.center-page {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  overflow: visible;
+}
+
+.center-page i {
+  padding-left:50px;
+}

@@ -1,0 +1,11 @@
+<div class="container" style="border:1px solid #cecece;">
+  <app-header></app-header>
+  <div class="row">
+    <div class="col-3  menu" style="border-right: 1px solid #ddd;">
+      <app-search></app-search>
+    </div>
+    <div class="col-9">
+      <app-flight-detail [flightDetail]="flightDetails" [breadcrumb]="breadcrumb"></app-flight-detail>
+    </div>
+  </div>
+</div>

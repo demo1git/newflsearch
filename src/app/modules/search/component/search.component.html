@@ -1,0 +1,31 @@
+<div class="switch-field">
+  <input type="radio" id="switch_left" onclick="isReturn();" name="switch_2" value="yes" checked/>
+  <label for="switch_left">One Way</label>
+  <input type="radio" id="switch_right" onclick="isReturn();" name="switch_2" value="no" />
+  <label for="switch_right">Return</label>
+</div>
+<form #searchForm="ngForm" (ngSubmit)="getSearchData(searchForm)">
+  <div class="tab-content">
+    <input type="text" placeholder="From" class="form-control" name="from" [(ngModel)]="from" #fromLocation="ngModel" required>
+    <input type="text" placeholder="To" class="form-control" name="to" [(ngModel)]="to" #toLocation="ngModel" required>
+    <input type="text" id="depart" class="form-control" name="depart" [(ngModel)]="depart" #departure="ngModel" placeholder="Depart on"
+      onfocus="(this.type='date')" onfocusout="(this.type='text')" required>
+    <input type="text" id="return" class="form-control" name="return" [(ngModel)]="return" #roundTrip="ngModel" placeholder="Return on"
+      onfocus="(this.type='date')" onfocusout="(this.type='text')">
+    <input type="number" class="form-control" name="passenger" [(ngModel)]="passenger" #passengerNumber="ngModel" step="1">
+    <input type="submit" value="Search" [disabled]="!searchForm.form.valid">
+    <div>
+      <p>Price Range</p>
+    </div>
+    <div class="slidebar">
+      <form name="registrationForm">
+        <p>
+          <i class="fa fa-rupee"></i>
+          <output id="rangeOutput" name="rangeOutput" #outputrange> 3000</output>
+        </p>
+        <input type="range" id="rangeInput" name="rangeInput" min="3000" max="25000" step="100" value="100" oninput="rangeOutput.value = range.rangeInput"
+          #pricerange (change)="getFlightsByPrice($event, pricerange.value)" [disabled]="!searchForm.form.valid">
+      </form>
+    </div>
+  </div>
+</form>

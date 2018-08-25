@@ -1,0 +1,56 @@
+<img src="./../assets/images/spinner.gif" alt="" *ngIf="isSpinner">
+<div *ngIf="flightDetail?.length > 0 else noResultFound">
+  <div class="row">
+    <app-breadcrumb [breadcrumb]="breadcrumb"></app-breadcrumb>
+  </div>
+  <div class="card row" *ngFor="let data of flightDetail">
+    <ul>
+      <li class="takeoff col-1">
+        <img src="/assets/images/takeoff.png" alt="">
+      </li>
+      <li class="col-2">{{data.airline}}
+        <div>
+          <small>{{data.code}}</small>
+        </div>
+      </li>
+      <li class="col-2">{{ data.dept | date:"HH:mm"}}
+        <div>
+          <small>{{data.origin}}</small>
+        </div>
+      </li>
+      <li class="col-2">{{ data.arvl | date:"HH:mm"}}
+        <div>
+          <small>{{data.destination}}</small>
+        </div>
+      </li>
+      <li class="price col-2">
+        <i class="fa fa-rupee"></i> {{ data.fare }}</li>
+      <li class="bookBtn row">
+        <input type="button" value="Book" />
+      </li>
+    </ul>
+  </div>
+</div>
+<ng-template #noResultFound>
+  <div *ngIf="breadcrumb else welcome">
+    <div class="no-rocord-found">
+      <img src="./assets/images/no-record-found.png" alt="">
+    </div>
+    <div class="no-record-found-md">
+      <img src="./assets/images/emblem.png" alt="">
+      <h4>We couldn't find flights matching your preferences</h4>
+    </div>
+  </div>
+</ng-template>
+<ng-template #welcome>
+  <div class="welcome center-page">
+    <div>
+      <i class="fa fa-search fa-5x icon-color"></i>
+    </div>
+    <p>Welcome to flight search</p>
+  </div>
+  <div class="welcome-md">
+    <div>
+      <i class="fa fa-search icon-color"></i> Welcome to flight search</div>
+    </div>
+</ng-template>

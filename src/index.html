@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Flsearch</title>
+  <base href="/">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="./assets/images/takeoff.ico">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+  <app-root></app-root>
+</body>
+</html>
+<script>
+  function isReturn() {
+      var flag = document.getElementById("return").style.display;
+      if (flag === 'none' || flag === '') {
+          document.getElementById("return").style.display = "block";
+      } else {
+          document.getElementById("return").style.display = "none";
+      }
+  }
+
+  document.registrationForm.rangeInput.oninput = function () {
+      document.registrationForm.rangeOutput.value = ' '+ document.registrationForm.rangeInput.value;
+  }
+
+
+</script>

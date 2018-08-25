@@ -1,0 +1,147 @@
+{
+	"flights": [
+		{
+			"code": "AI-349",
+			"airline": "AirIndia",
+			"origin": "pune",
+			"destination": "mumbai",
+			"dept": "2018-09-15 08:00:00",
+			"arvl": "2018-09-15 10:30:00",
+			"date": "2018-09-15",
+			"fare": "2300",
+			"roundTrip": false
+		},
+		{
+			"code": "IG-007",
+			"airline": "Indigo",
+			"origin": "kolkata",
+			"destination": "mumbai",
+			"dept": "2018-09-15 08:00:00",
+			"arvl": "2018-09-15 10:30:00",
+			"date": "2018-09-15",
+			"fare": "3000",
+			"roundTrip": false
+		},
+		{
+			"code": "SJ-89",
+			"airline": "SpiceJet",
+			"origin": "kolkata",
+			"destination": "mumbai",
+			"dept": "2018-09-15 08:00:00",
+			"arvl": "2018-09-15 10:30:00",
+			"date": "2018-09-16",
+			"fare": "2300",
+			"roundTrip": false
+		},
+		{
+			"code": "AI-349",
+			"airline": "AirIndia",
+			"origin": "pune",
+			"destination": "mumbai",
+			"dept": "2018-09-15 08:00:00",
+			"arvl": "2018-09-15 10:30:00",
+			"date": "2018-09-16",
+			"fare": "3450",
+			"roundTrip": false
+		},
+		{
+			"code": "AI-349",
+			"airline": "AirIndia",
+			"origin": "kolkata",
+			"destination": "mumbai",
+			"dept": "2018-09-15 08:00:00",
+			"arvl": "2018-09-15 10:30:00",
+			"date": "2018-09-16",
+			"fare": "10000",
+			"roundTrip": false
+		},
+		{
+			"code": "AI-349",
+			"airline": "AirIndia",
+			"origin": "kolkata",
+			"destination": "mumbai",
+			"dept": "2018-09-15 08:00:00",
+			"arvl": "2018-09-15 10:30:00",
+			"date": "2018-09-16",
+			"fare": "8600",
+			"roundTrip": false
+		},
+		{
+			"code": "AI-349",
+			"airline": "AirIndia",
+			"origin": "kolkata",
+			"destination": "mumbai",
+			"dept": "2018-09-15 08:00:00",
+			"arvl": "2018-09-15 10:30:00",
+			"date": "2018-09-16",
+			"fare": "5000",
+			"roundTrip": false
+		},
+		{
+			"code": "AI-349",
+			"airline": "AirIndia",
+			"origin": "kolkata",
+			"destination": "mumbai",
+			"dept": "2018-09-15 08:00:00",
+			"arvl": "2018-09-15 10:30:00",
+			"date": "2018-09-16",
+			"fare": "3500",
+			"roundTrip": false
+		},
+		{
+			"code": "AI-349",
+			"airline": "AirIndia",
+			"origin": "kolkata",
+			"destination": "mumbai",
+			"dept": "2018-09-15 08:00:00",
+			"arvl": "2018-09-15 10:30:00",
+			"date": "2018-09-16",
+			"fare": "4500",
+			"roundTrip": false
+		},
+		{
+			"code": "AI-349",
+			"airline": "AirIndia",
+			"origin": "kolkata",
+			"destination": "mumbai",
+			"dept": "2018-09-15 08:00:00",
+			"arvl": "2018-09-15 10:30:00",
+			"date": "2018-09-16",
+			"fare": "4450",
+			"roundTrip": false
+		},
+		{
+			"code": "AI-349",
+			"airline": "AirIndia",
+			"origin": "kolkata",
+			"destination": "mumbai",
+			"dept": "2018-09-15 08:00:00",
+			"arvl": "2018-09-15 10:30:00",
+			"date": "2018-09-16",
+			"fare": "6500",
+			"roundTrip": false
+		},
+		{
+			"code": "AI-349",
+			"airline": "AirIndia",
+			"origin": "kolkata",
+			"destination": "mumbai",
+			"dept": "2018-09-15 08:00:00",
+			"arvl": "2018-11-01 10:30:00",
+			"date": "2018-11-01",
+			"fare": "15000",
+			"roundTrip": false
+		},
+		{
+			"code": "AI-349",
+			"airline": "AirIndia",
+			"origin": "kolkata",
+			"destination": "mumbai",
+			"dept": "2018-11-01 08:00:00",
+			"arvl": "2018-11-01 10:30:00",
+			"date": "2018-11-01",
+			"fare": "3900",
+			"roundTrip": false
+		}
+	]
+}
